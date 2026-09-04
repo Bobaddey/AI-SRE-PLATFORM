@@ -12,11 +12,12 @@ spec:
           - resources:
               kinds:
                 - Pod
-  exclude:
-    any:
-    - resources:
-        namespaces:
-        - observability
+      # `exclude` is a rule-level field (spec.rules[].exclude), not spec.exclude.
+      exclude:
+        any:
+          - resources:
+              namespaces:
+                - observability
       validate:
         message: "Pods must have a team label."
         pattern:

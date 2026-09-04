@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1660" viewBox="0 0 1280 1660" font-family="system-ui,sans-serif">
+<defs><style>
+  .h1{font:600 27px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#18181B}
+  .h2{font:400 14px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#52525B}
+  .leg{font:400 12px system-ui,-apple-system,sans-serif;fill:#52525B}
+  .lyr{font:600 10.5px system-ui,-apple-system,sans-serif;fill:#71717A;letter-spacing:.09em;text-transform:uppercase}
+  .ttl{font:600 14.5px system-ui,-apple-system,'Segoe UI',sans-serif;fill:#18181B}
+  .sub{font:400 11px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#52525B}
+  .note{font:400 12.5px system-ui,-apple-system,sans-serif;fill:#52525B}
+  .seam{font:600 11.5px system-ui,-apple-system,sans-serif;fill:#18181B;letter-spacing:.1em}
+  .fb{font:400 11px system-ui,-apple-system,sans-serif;fill:#71717A;text-anchor:middle}
+  .th{font:600 10.5px system-ui,-apple-system,sans-serif;fill:#71717A;letter-spacing:.08em}
+  .tk{font:600 13px system-ui,-apple-system,sans-serif;fill:#18181B}
+  .tv{font:400 12.5px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#3F3F46}
+</style><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#71717A"/></marker></defs>
+<rect width="1280" height="1660" fill="#FAFAFA"/>
+<text x="40" y="52" class="h1">AI SRE Platform</text>
+<text x="40" y="80" class="h2">One control plane for agent-driven operations — built on Minikube, portable to EKS / GKE / AKS.</text>
+<circle cx="894" cy="46" r="4" fill="#15803D"/>
+<text x="906" y="50" class="leg">running today</text>
+<circle cx="1034" cy="46" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="1046" y="50" class="leg">not yet built</text>
+<text x="176" y="157" text-anchor="end" class="lyr">Interface</text>
+<rect x="504" y="122" width="380" height="62" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="519" cy="137" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="694" y="152" text-anchor="middle" class="ttl">Engineer</text>
+<text x="694" y="170" text-anchor="middle" class="sub">CLI · Web · Slack</text>
+<line x1="694" y1="184" x2="694" y2="210" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="176" y="253" text-anchor="end" class="lyr">AI Gateway</text>
+<rect x="504" y="218" width="380" height="62" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="519" cy="233" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="694" y="248" text-anchor="middle" class="ttl">LiteLLM Gateway</text>
+<text x="694" y="266" text-anchor="middle" class="sub">one endpoint · routing · quotas · audit</text>
+<line x1="694" y1="280" x2="694" y2="302" stroke="#71717A" stroke-width="1.4"/>
+<line x1="354" y1="302" x2="1032" y2="302" stroke="#71717A" stroke-width="1.4"/>
+<line x1="354" y1="302" x2="354" y2="316" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="693" y1="302" x2="693" y2="316" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1032" y1="302" x2="1032" y2="316" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="196" y="312" width="996" height="90" rx="12" fill="#F4F4F5"/>
+<text x="176" y="361" text-anchor="end" class="lyr">Models</text>
+<rect x="208" y="324" width="293" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="223" cy="339" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="354" y="356" text-anchor="middle" class="ttl">Ollama / vLLM</text>
+<text x="354" y="374" text-anchor="middle" class="sub">local · cheap · default</text>
+<rect x="547" y="324" width="293" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="562" cy="339" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="694" y="356" text-anchor="middle" class="ttl">DeepSeek</text>
+<text x="694" y="374" text-anchor="middle" class="sub">low-cost API</text>
+<rect x="886" y="324" width="293" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="901" cy="339" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="1032" y="356" text-anchor="middle" class="ttl">Amazon Bedrock</text>
+<text x="1032" y="374" text-anchor="middle" class="sub">selective · high-stakes</text>
+<line x1="354" y1="390" x2="354" y2="412" stroke="#71717A" stroke-width="1.4"/>
+<line x1="693" y1="390" x2="693" y2="412" stroke="#71717A" stroke-width="1.4"/>
+<line x1="1032" y1="390" x2="1032" y2="412" stroke="#71717A" stroke-width="1.4"/>
+<line x1="354" y1="412" x2="1032" y2="412" stroke="#71717A" stroke-width="1.4"/>
+<line x1="694" y1="412" x2="694" y2="426" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="176" y="469" text-anchor="end" class="lyr">Orchestration</text>
+<rect x="484" y="434" width="420" height="62" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="499" cy="449" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="694" y="464" text-anchor="middle" class="ttl">Agent Orchestrator</text>
+<text x="694" y="482" text-anchor="middle" class="sub">LangGraph · state · retries · human-in-the-loop</text>
+<line x1="694" y1="496" x2="694" y2="518" stroke="#71717A" stroke-width="1.4"/>
+<line x1="282" y1="518" x2="1102" y2="518" stroke="#71717A" stroke-width="1.4"/>
+<line x1="282" y1="518" x2="282" y2="532" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="446" y1="518" x2="446" y2="532" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="610" y1="518" x2="610" y2="532" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="774" y1="518" x2="774" y2="532" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="938" y1="518" x2="938" y2="532" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1102" y1="518" x2="1102" y2="532" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="196" y="528" width="996" height="90" rx="12" fill="#F4F4F5"/>
+<text x="176" y="577" text-anchor="end" class="lyr">Agents</text>
+<rect x="208" y="540" width="148" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="223" cy="555" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="282" y="572" text-anchor="middle" class="ttl">Incident</text>
+<text x="282" y="590" text-anchor="middle" class="sub">triage · RCA</text>
+<rect x="372" y="540" width="148" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="387" cy="555" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="446" y="572" text-anchor="middle" class="ttl">Drift</text>
+<text x="446" y="590" text-anchor="middle" class="sub">IaC vs live</text>
+<rect x="536" y="540" width="148" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="551" cy="555" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="610" y="572" text-anchor="middle" class="ttl">Security</text>
+<text x="610" y="590" text-anchor="middle" class="sub">CVE · posture</text>
+<rect x="700" y="540" width="148" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="715" cy="555" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="774" y="572" text-anchor="middle" class="ttl">WAF</text>
+<text x="774" y="590" text-anchor="middle" class="sub">edge rules</text>
+<rect x="864" y="540" width="148" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="879" cy="555" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="938" y="572" text-anchor="middle" class="ttl">FinOps</text>
+<text x="938" y="590" text-anchor="middle" class="sub">cost</text>
+<rect x="1028" y="540" width="148" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="1043" cy="555" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="1102" y="572" text-anchor="middle" class="ttl">Canary</text>
+<text x="1102" y="590" text-anchor="middle" class="sub">progressive</text>
+<line x1="282" y1="606" x2="282" y2="628" stroke="#71717A" stroke-width="1.4"/>
+<line x1="446" y1="606" x2="446" y2="628" stroke="#71717A" stroke-width="1.4"/>
+<line x1="610" y1="606" x2="610" y2="628" stroke="#71717A" stroke-width="1.4"/>
+<line x1="774" y1="606" x2="774" y2="628" stroke="#71717A" stroke-width="1.4"/>
+<line x1="938" y1="606" x2="938" y2="628" stroke="#71717A" stroke-width="1.4"/>
+<line x1="1102" y1="606" x2="1102" y2="628" stroke="#71717A" stroke-width="1.4"/>
+<line x1="282" y1="628" x2="1102" y2="628" stroke="#71717A" stroke-width="1.4"/>
+<line x1="694" y1="628" x2="694" y2="642" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="196" y="638" width="996" height="90" rx="12" fill="#F4F4F5"/>
+<text x="176" y="687" text-anchor="end" class="lyr">Guardrails</text>
+<rect x="208" y="650" width="313" height="66" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="223" cy="665" r="4" fill="#15803D"/>
+<text x="364" y="682" text-anchor="middle" class="ttl">Kyverno</text>
+<text x="364" y="700" text-anchor="middle" class="sub">admission policy · installed</text>
+<rect x="537" y="650" width="313" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="552" cy="665" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="694" y="682" text-anchor="middle" class="ttl">OPA / Conftest</text>
+<text x="694" y="700" text-anchor="middle" class="sub">plan-time policy</text>
+<rect x="866" y="650" width="313" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="881" cy="665" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="1022" y="682" text-anchor="middle" class="ttl">IAM / RBAC</text>
+<text x="1022" y="700" text-anchor="middle" class="sub">least privilege</text>
+<text x="208" y="722" class="note">No agent writes to a cluster directly — every action clears policy first.</text>
+<line x1="364" y1="716" x2="364" y2="747" stroke="#71717A" stroke-width="1.4"/>
+<line x1="693" y1="716" x2="693" y2="747" stroke="#71717A" stroke-width="1.4"/>
+<line x1="1022" y1="716" x2="1022" y2="747" stroke="#71717A" stroke-width="1.4"/>
+<line x1="364" y1="747" x2="1022" y2="747" stroke="#71717A" stroke-width="1.4"/>
+<line x1="694" y1="747" x2="694" y2="770" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="196" y="766" width="996" height="90" rx="12" fill="#F4F4F5"/>
+<text x="176" y="815" text-anchor="end" class="lyr">Actuation</text>
+<rect x="208" y="778" width="313" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="223" cy="793" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="364" y="810" text-anchor="middle" class="ttl">Git PR</text>
+<text x="364" y="828" text-anchor="middle" class="sub">human-reviewed change</text>
+<rect x="537" y="778" width="313" height="66" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="552" cy="793" r="4" fill="#15803D"/>
+<text x="694" y="810" text-anchor="middle" class="ttl">ArgoCD</text>
+<text x="694" y="828" text-anchor="middle" class="sub">GitOps reconcile · installed</text>
+<rect x="866" y="778" width="313" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="881" cy="793" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="1022" y="810" text-anchor="middle" class="ttl">Executor</text>
+<text x="1022" y="828" text-anchor="middle" class="sub">K8s / cloud API · gated</text>
+<line x1="364" y1="844" x2="364" y2="866" stroke="#71717A" stroke-width="1.4"/>
+<line x1="693" y1="844" x2="693" y2="866" stroke="#71717A" stroke-width="1.4"/>
+<line x1="1022" y1="844" x2="1022" y2="866" stroke="#71717A" stroke-width="1.4"/>
+<line x1="364" y1="866" x2="1022" y2="866" stroke="#71717A" stroke-width="1.4"/>
+<line x1="694" y1="866" x2="694" y2="880" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="176" y="923" text-anchor="end" class="lyr">Workloads</text>
+<rect x="484" y="888" width="420" height="62" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="499" cy="903" r="4" fill="#15803D"/>
+<text x="694" y="918" text-anchor="middle" class="ttl">Applications</text>
+<text x="694" y="936" text-anchor="middle" class="sub">applications/checkout-api · running</text>
+<line x1="694" y1="950" x2="694" y2="972" stroke="#71717A" stroke-width="1.4"/>
+<line x1="299" y1="972" x2="1087" y2="972" stroke="#71717A" stroke-width="1.4"/>
+<line x1="299" y1="972" x2="299" y2="986" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="496" y1="972" x2="496" y2="986" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="693" y1="972" x2="693" y2="986" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="890" y1="972" x2="890" y2="986" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="1087" y1="972" x2="1087" y2="986" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="196" y="982" width="996" height="90" rx="12" fill="#F4F4F5"/>
+<text x="176" y="1031" text-anchor="end" class="lyr">Signals</text>
+<rect x="208" y="994" width="183" height="66" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="223" cy="1009" r="4" fill="#15803D"/>
+<text x="300" y="1026" text-anchor="middle" class="ttl">OpenTelemetry</text>
+<text x="300" y="1044" text-anchor="middle" class="sub">collector</text>
+<rect x="405" y="994" width="183" height="66" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="420" cy="1009" r="4" fill="#15803D"/>
+<text x="496" y="1026" text-anchor="middle" class="ttl">Prometheus</text>
+<text x="496" y="1044" text-anchor="middle" class="sub">metrics</text>
+<rect x="602" y="994" width="183" height="66" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="617" cy="1009" r="4" fill="#15803D"/>
+<text x="694" y="1026" text-anchor="middle" class="ttl">Loki</text>
+<text x="694" y="1044" text-anchor="middle" class="sub">logs</text>
+<rect x="799" y="994" width="183" height="66" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="814" cy="1009" r="4" fill="#15803D"/>
+<text x="890" y="1026" text-anchor="middle" class="ttl">Tempo</text>
+<text x="890" y="1044" text-anchor="middle" class="sub">traces</text>
+<rect x="996" y="994" width="183" height="66" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="1011" cy="1009" r="4" fill="#15803D"/>
+<text x="1088" y="1026" text-anchor="middle" class="ttl">Grafana</text>
+<text x="1088" y="1044" text-anchor="middle" class="sub">dashboards</text>
+<line x1="299" y1="1060" x2="299" y2="1082" stroke="#71717A" stroke-width="1.4"/>
+<line x1="496" y1="1060" x2="496" y2="1082" stroke="#71717A" stroke-width="1.4"/>
+<line x1="693" y1="1060" x2="693" y2="1082" stroke="#71717A" stroke-width="1.4"/>
+<line x1="890" y1="1060" x2="890" y2="1082" stroke="#71717A" stroke-width="1.4"/>
+<line x1="1087" y1="1060" x2="1087" y2="1082" stroke="#71717A" stroke-width="1.4"/>
+<line x1="299" y1="1082" x2="1087" y2="1082" stroke="#71717A" stroke-width="1.4"/>
+<line x1="694" y1="1082" x2="694" y2="1096" stroke="#71717A" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="196" y="1092" width="996" height="90" rx="12" fill="#F4F4F5"/>
+<text x="176" y="1141" text-anchor="end" class="lyr">Verification</text>
+<rect x="208" y="1104" width="466" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="223" cy="1119" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="441" y="1136" text-anchor="middle" class="ttl">Verify</text>
+<text x="441" y="1154" text-anchor="middle" class="sub">SLO · error budget · smoke test</text>
+<rect x="714" y="1104" width="466" height="66" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="729" cy="1119" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="947" y="1136" text-anchor="middle" class="ttl">Rollback / Learn</text>
+<text x="947" y="1154" text-anchor="middle" class="sub">revert, or record the outcome</text>
+<path d="M 1180 1137 H 1228 V 573 H 1188" fill="none" stroke="#71717A" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#a)"/>
+<text x="1220" y="855" class="fb" transform="rotate(-90 1220 855)">outcomes feed back</text>
+<line x1="40" y1="1222" x2="1240" y2="1222" stroke="#18181B" stroke-width="1.6"/>
+<text x="40" y="1248" class="seam">THE PORTABILITY SEAM — the Kubernetes API</text>
+<text x="40" y="1270" class="note">Everything above this line is plain Kubernetes + Helm + Git. Moving to a cloud cluster replaces the substrate below, not the platform above.</text>
+<rect x="196" y="1284" width="996" height="98" rx="12" fill="#F4F4F5"/>
+<text x="176" y="1337" text-anchor="end" class="lyr">Substrate</text>
+<rect x="208" y="1296" width="466" height="74" rx="8" fill="#FFFFFF" stroke="#18181B" stroke-width="1.4"/>
+<circle cx="223" cy="1311" r="4" fill="#15803D"/>
+<text x="441" y="1332" text-anchor="middle" class="ttl">Minikube · today</text>
+<text x="441" y="1350" text-anchor="middle" class="sub">docker driver · 4 CPU / 8 GB · hostPath volumes</text>
+<rect x="714" y="1296" width="466" height="74" rx="8" fill="#FFFFFF" stroke="#A1A1AA" stroke-width="1.4" stroke-dasharray="5 4"/>
+<circle cx="729" cy="1311" r="3.6" fill="none" stroke="#A1A1AA" stroke-width="1.2"/>
+<text x="947" y="1332" text-anchor="middle" class="ttl">EKS / GKE / AKS · next</text>
+<text x="947" y="1350" text-anchor="middle" class="sub">managed control plane · CSI volumes · cloud IAM</text>
+<text x="40" y="1426" class="seam">WHAT ACTUALLY CHANGES</text>
+<text x="190" y="1448" class="th">LOCAL (MINIKUBE)</text>
+<text x="610" y="1448" class="th">CLOUD (EKS / GKE / AKS)</text>
+<line x1="40" y1="1456" x2="1240" y2="1456" stroke="#E4E4E7" stroke-width="1"/>
+<text x="40" y="1476" class="tk">Storage</text>
+<text x="190" y="1476" class="tv">minikube default-storageclass (hostPath)</text>
+<text x="610" y="1476" class="tv">EBS / PD / Disk CSI + volume expansion</text>
+<line x1="40" y1="1486" x2="1240" y2="1486" stroke="#E4E4E7" stroke-width="1"/>
+<text x="40" y="1506" class="tk">Ingress</text>
+<text x="190" y="1506" class="tv">kubectl port-forward</text>
+<text x="610" y="1506" class="tv">ALB or Gateway API + external DNS + TLS</text>
+<line x1="40" y1="1516" x2="1240" y2="1516" stroke="#E4E4E7" stroke-width="1"/>
+<text x="40" y="1536" class="tk">Identity</text>
+<text x="190" y="1536" class="tv">single local kubeconfig</text>
+<text x="610" y="1536" class="tv">IRSA / Workload Identity per workload</text>
+<line x1="40" y1="1546" x2="1240" y2="1546" stroke="#E4E4E7" stroke-width="1"/>
+<text x="40" y="1566" class="tk">Secrets</text>
+<text x="190" y="1566" class="tv">values files in Git</text>
+<text x="610" y="1566" class="tv">External Secrets + KMS / Secrets Manager</text>
+<line x1="40" y1="1576" x2="1240" y2="1576" stroke="#E4E4E7" stroke-width="1"/>
+<text x="40" y="1596" class="tk">Models</text>
+<text x="190" y="1596" class="tv">Ollama in-cluster</text>
+<text x="610" y="1596" class="tv">Bedrock or a managed inference endpoint</text>
+<line x1="40" y1="1606" x2="1240" y2="1606" stroke="#E4E4E7" stroke-width="1"/>
+<text x="40" y="1626" class="tk">Capacity</text>
+<text x="190" y="1626" class="tv">one 8 GB node, 91% requested</text>
+<text x="610" y="1626" class="tv">node groups + autoscaling + PDBs</text>
+</svg>
