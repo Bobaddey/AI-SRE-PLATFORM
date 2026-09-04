@@ -1,0 +1,29 @@
+mode: deployment
+
+image:
+  repository: otel/opentelemetry-collector-k8s
+
+config:
+  receivers:
+    otlp:
+      protocols:
+        grpc: {}
+        http: {}
+
+  processors:
+    batch: {}
+
+  exporters:
+    debug: {}
+
+  service:
+    pipelines:
+      traces:
+        receivers: [otlp]
+        processors: [batch]
+        exporters: [debug]
+
+      metrics:
+        receivers: [otlp]
+        processors: [batch]
+        exporters: [debug]

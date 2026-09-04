@@ -1,0 +1,51 @@
+# Satisfies the `require-team-label` Kyverno ClusterPolicy (policies/kubernetes/require-labels.yaml).
+#
+# The policy matches Pod, and Kyverno autogen expands it to every pod controller,
+# so *every* pod template in the chart needs a `team` label -- not just the
+# pre-install hook Job that fails first. The chart exposes these through five
+# different keys because the pods come from five different places:
+#
+#   commonLabels            -> operator Deployment + admission-webhook hook Jobs
+#   prometheusSpec          -> Prometheus CR, applied by the operator to its StatefulSet
+#   alertmanagerSpec        -> Alertmanager CR, same
+#   grafana / node-exporter -> subcharts, which do not inherit commonLabels
+#   kube-state-metrics      -> subchart, uses `customLabels` rather than `podLabels`
+
+commonLabels:
+  team: platform
+
+prometheusOperator:
+  enabled: true
+
+prometheus:
+  prometheusSpec:
+    retention: 24h
+    podMetadata:
+      labels:
+        team: platform
+
+alertmanager:
+  enabled: true
+  alertmanagerSpec:
+    podMetadata:
+      labels:
+        team: platform
+
+grafana:
+  enabled: true
+  podLabels:
+    team: platform
+
+kubeStateMetrics:
+  enabled: true
+
+kube-state-metrics:
+  customLabels:
+    team: platform
+
+nodeExporter:
+  enabled: true
+
+prometheus-node-exporter:
+  podLabels:
+    team: platform

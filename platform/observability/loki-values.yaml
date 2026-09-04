@@ -1,0 +1,25 @@
+deploymentMode: SingleBinary
+
+loki:
+  useTestSchema: true
+  storage:
+    type: filesystem
+  auth_enabled: false
+  commonConfig:
+    replication_factor: 1
+
+singleBinary:
+  replicas: 1
+  podLabels:
+    team: platform
+
+# Zero out the other deployment-mode components since SimpleScalable is the chart default
+read:
+  replicas: 0
+write:
+  replicas: 0
+backend:
+  replicas: 0
+
+commonLabels:
+  team: platform

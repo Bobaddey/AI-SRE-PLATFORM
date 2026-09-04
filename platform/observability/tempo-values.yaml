@@ -1,0 +1,20 @@
+tempo:
+  retention: 24h
+  storage:
+    trace:
+      backend: local
+      local:
+        path: /var/tempo/traces
+      wal:
+        path: /var/tempo/wal
+
+persistence:
+  enabled: true
+  size: 10Gi
+
+podLabels:
+  team: platform
+
+global:
+  commonLabels:
+    team: platform
